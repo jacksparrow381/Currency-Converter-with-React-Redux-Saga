@@ -1,0 +1,152 @@
+.NavBar {
+    background: linear-gradient(to right, #4278ff, #56a5f8);
+    margin: 0px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavBarSelect {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    border-radius: 3px;
+    width: 150px;
+    font-weight: bold;
+    color: #212529;
+    cursor: pointer;
+    float: right;
+}
+
+.NavBarLink {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    width: 150px;
+    font-weight: bold;
+    color: #f5f4f4;
+    margin-right: 12px;
+
+
+}
+
+.NavBarLink:hover {
+    color: #0e0d0d;
+    background-color: white;
+}
+
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.SectionContainer {
+    display: flex;
+    flex-direction: column;
+    border-Radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    box-shadow: 0px 0px 5px #000000;
+    margin-top: 50px;
+    margin-top: 50px;
+}
+
+.FormContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.FormSection {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin-right: '10px';
+}
+
+.FormLabel {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.FormInput {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.FormSelect {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    size: sm;
+    width: 300px;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 0.5rem;
+
+}
+
+.Result {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.FormButton {
+    background-color: #4caf50;
+    border: 1px solid #4caf50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.currencyRatesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.currencyRatesHeader {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.currencyRatesTableContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+}
+
+.currencyRatesTable {
+    width: 700px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.currencyRatesTableHeader {
+    border: 2px solid black;
+    background-color: #4CAF50;
+    color: white;
+
+}
